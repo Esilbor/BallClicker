@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply m-0 p-0 bg-black overflow-hidden;
+}
+
+#gameCanvas {
+    @apply w-screen h-screen block;
+    touch-action: none;
+}

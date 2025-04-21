@@ -1,0 +1,22 @@
+{
+    "name": "back",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "tsc -w & node dist/index.js"
+    },
+    "dependencies": {
+        "@fastify/websocket": "^8.3.1",
+        "@types/sqlite3": "^3.1.11",
+        "fastify": "^4.22.2",
+        "sqlite3": "^5.1.7"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.4",
+        "@types/node": "^20.5.0",
+        "@types/ws": "^8.5.5",
+        "typescript": "^5.0.0"
+    }
+}
